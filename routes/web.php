@@ -67,3 +67,7 @@ Route::get('/cc/c2', function () {
 Route::get('/ee/e1', function () {
     return view('ee.e1');
 });
+//ee.e2
+Route::get('/ee/e2', function () {
+    return view('ee.e2');
+});
