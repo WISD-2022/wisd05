@@ -30,3 +30,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+//aa.a1
+Route::get('aa/a1', function () {
+    return view('aa.a1');
+});
