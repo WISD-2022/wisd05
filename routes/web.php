@@ -63,7 +63,7 @@ Route::get('/cc/c2', function () {
 
 });
 
-//ee.e1
-Route::get('/ee/e1', function () {
-    return view('ee.e1');
+//ff.f1
+Route::get('/ff/f1', function () {
+    return view('ff.f1');
 });
