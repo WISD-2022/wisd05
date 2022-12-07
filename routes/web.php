@@ -83,6 +83,7 @@ Route::get('/ff/f2', function () {
     return view('ff.f2');
 });
 
+
 //gg.g1
 Route::get('/gg/g1', function () {
     return view('gg.g1');
@@ -91,4 +92,14 @@ Route::get('/gg/g1', function () {
 //gg.g2
 Route::get('/gg/g2', function () {
     return view('gg.g2');
+});
+//hh.h1
+Route::get('/hh/h1', function () {
+    return view('hh.h1');
+});
+
+//hh.h2
+Route::get('/hh/h2', function () {
+    return view('hh.h2');
+
 });
